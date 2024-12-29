@@ -6,9 +6,11 @@
 - [Tercer semestre]
 
 - [Primer periodo, programación 3]
+  
+- [Profesor: Ing. @DarwinChamba]
 
 - [Actividad 4: Calculadora]
-- [ing]
+  
 
 ## Calculadora básica en Python.
 
