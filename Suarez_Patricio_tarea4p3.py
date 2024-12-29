@@ -21,7 +21,7 @@ def clear(): #Función que limpía la expresión en pantalla
     expression = ""
     equation.set("")
 
-def delete(): #Función que elimina limina un número en pantalla
+def delete(): #Función que elimina a un número en pantalla
     global expression
     expression = expression[:-1]
     equation.set(expression)
