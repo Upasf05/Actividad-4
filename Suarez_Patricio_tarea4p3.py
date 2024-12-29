@@ -30,7 +30,7 @@ if __name__ == "__main__": #Función donde se ejecuta la calculadora
     gui = tk.Tk()
     gui.configure(background="#565a58")
     gui.title("Simple Calculator")
-    gui.geometry("350x260")  # Ajusta el tamaño de la ventana
+    gui.geometry("350x260")  #Ajusta el tamaño de la ventana
 
     equation = tk.StringVar()
 
@@ -49,14 +49,14 @@ if __name__ == "__main__": #Función donde se ejecuta la calculadora
     tk.Button(gui, text=' 1 ', bg='black', fg='white', command=lambda: press(1), height=1, width=7).grid(row=2, column=0, padx=5, pady=5)
     tk.Button(gui, text=' 2 ', bg='black', fg='white', command=lambda: press(2), height=1, width=7).grid(row=2, column=1, padx=5, pady=5)
     tk.Button(gui, text=' 3 ', bg='black', fg='white', command=lambda: press(3), height=1, width=7).grid(row=2, column=2, padx=5, pady=5)
-    tk.Button(gui, text='DEL', bg='black', fg='white', command=delete, height=1, width=7).grid(row=2, column=3, padx=5, pady=5)  # Margen derecho extra
-    tk.Button(gui, text='AC', bg='black', fg='white', command=clear, height=1, width=7).grid(row=2, column=4, padx=10, pady=5)
+    tk.Button(gui, text='DEL', bg='black', fg='white', command=delete, height=1, width=7).grid(row=2, column=3, padx=5, pady=5)  # Botón para borrar un número
+    tk.Button(gui, text='AC', bg='black', fg='white', command=clear, height=1, width=7).grid(row=2, column=4, padx=10, pady=5) #Botón para limpiar la pantalla
 
     tk.Button(gui, text=' 4 ', bg='black', fg='white', command=lambda: press(4), height=1, width=7).grid(row=3, column=0, padx=5, pady=5)
     tk.Button(gui, text=' 5 ', bg='black', fg='white', command=lambda: press(5), height=1, width=7).grid(row=3, column=1, padx=5, pady=5)
     tk.Button(gui, text=' 6 ', bg='black', fg='white', command=lambda: press(6), height=1, width=7).grid(row=3, column=2, padx=5, pady=5)
     tk.Button(gui, text=' + ', bg='black', fg='white', command=lambda: press("+"), height=1, width=7).grid(row=3, column=3, padx=5, pady=5)
-    tk.Button(gui, text=' - ', bg='black', fg='white', command=lambda: press("-"), height=1, width=7).grid(row=3, column=4, padx=10, pady=5)  # Margen derecho extra
+    tk.Button(gui, text=' - ', bg='black', fg='white', command=lambda: press("-"), height=1, width=7).grid(row=3, column=4, padx=10, pady=5)
 
     tk.Button(gui, text=' 7 ', bg='black', fg='white', command=lambda: press(7), height=1, width=7).grid(row=4, column=0, padx=5, pady=5)
     tk.Button(gui, text=' 8 ', bg='black', fg='white', command=lambda: press(8), height=1, width=7).grid(row=4, column=1, padx=5, pady=5)
@@ -67,3 +67,4 @@ if __name__ == "__main__": #Función donde se ejecuta la calculadora
     tk.Button(gui, text=' = ', bg='black', fg='white', command=equalpress, height=1, width=16).grid(row=5, column=1, columnspan=2, padx=5, pady=5)
 
     gui.mainloop()
+
