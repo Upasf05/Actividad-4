@@ -24,5 +24,5 @@ Esta calculadora realiza las cuatro operaciones básicas a través de botones, y
 La calculadora cuenta con una interfaz gráfica de colores que emulan una calculadora de verdad.
 
 
-Actualmente esta aplicación cuenta con el código en dos versiones, básica y POO (programación orientada a objetos). Próximamente se subirá en programa en formato EXE.
+Esta aplicación cuenta con el código Python en dos versiones, básica y POO (programación orientada a objetos), así como con el archivo EXE, creado a partir del código POO.
 
