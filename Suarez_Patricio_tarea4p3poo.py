@@ -12,13 +12,11 @@ class SimpleCalculator: #Clase principal del programa
 
         self.create_widgets()
 
-    def press(self, num): #Método que construye expreión matemática
-        """Construye la expresión matemática."""
+    def press(self, num): #Método que construye expresión matemática
         self.expression += str(num)
         self.equation.set(self.expression)
 
     def equalpress(self): #Método que analiza expresión matemática
-        """Evalúa la expresión matemática y la muestra."""
         try:
             total = str(eval(self.expression))
             self.equation.set(total)
@@ -28,17 +26,14 @@ class SimpleCalculator: #Clase principal del programa
             self.expression = ""
 
     def clear(self): #Método que limpia la expresión en pantalla
-        """Limpia la expresión en pantalla."""
         self.expression = ""
         self.equation.set("")
 
-    def delete(self): #FMétodo que elimina un número en pantalla
-        """Elimina el último número en pantalla."""
+    def delete(self): #Método que elimina un número en pantalla
         self.expression = self.expression[:-1]
         self.equation.set(self.expression)
 
     def create_widgets(self): #Método que crea la ventana
-        """Crea los widgets de la interfaz gráfica."""
         # Título superior
         tk.Label(self.root, text="ITECSUR, CALCULADORA", font=("Arial", 10, "bold"), bg="#565a58", fg="white").grid(row=0, column=0, columnspan=3, pady=10, sticky="w")
         tk.Label(self.root, text="PATRICIO SUÁREZ", font=("Arial", 10, "bold"), bg="#565a58", fg="white").grid(row=0, column=3, columnspan=2, padx=10, pady=10, sticky="e")
