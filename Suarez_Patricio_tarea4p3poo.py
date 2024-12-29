@@ -7,7 +7,7 @@ class SimpleCalculator: #Clase principal del programa
         self.root.title("Calculadora")
         self.root.geometry("350x260")
 
-        self.expression = ""
+        self.expression = "" #Establecer un valor vacío cuando se inicia la calculadora
         self.equation = tk.StringVar()
 
         self.create_widgets()
