@@ -29,7 +29,7 @@ def delete(): #Función que elimina limina un número en pantalla
 if __name__ == "__main__": #Función donde se ejecuta la calculadora
     gui = tk.Tk()
     gui.configure(background="#565a58")
-    gui.title("Simple Calculator")
+    gui.title("Simple Calc")
     gui.geometry("350x260")  #Ajusta el tamaño de la ventana
 
     equation = tk.StringVar()
