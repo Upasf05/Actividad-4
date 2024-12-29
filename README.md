@@ -7,7 +7,7 @@
 
 - [Primer periodo, programación 3]
   
-- [Profesor: Ing. @DarwinChamba ]
+- [Profesor: Ing. @DarwinChamba]
 
 - [Actividad 4: Calculadora]
   
