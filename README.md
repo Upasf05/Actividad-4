@@ -1,14 +1,16 @@
-ITECSUR.
+## ITECSUR.
 
-Patricio Suárez
+## Calculadora básica en Python.
 
-Desarrollo de Software
+- [Patricio Suárez]
 
-Tercer semestre
+- [Desarrollo de Software]
 
-Primer periodo, programación 3.
+- [Tercer semestre]
 
-Actividad 4: Calculadora.
+- [Primer periodo, programación 3]
+
+- [Actividad 4: Calculadora]
 
 
 Buenas a todos, esta es mi aplicación de una calculadora básica creada en el lenguaje de programación Python 📲
